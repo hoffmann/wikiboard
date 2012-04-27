@@ -2,13 +2,54 @@ body{
     font: 13.34px helvetica,arial,freesans,clean,sans-serif;
     line-height: 1.4em;
     color:  #333;
+    background-color: ghostWhite;
     
 }
 #content{
-    background-color: ghostWhite;
-    width: 760px;
+    background-color: white;
+    width: 800px;
     margin: 0px auto;
     padding: 20px;
     font-size: 14px;
     line-height: 1.6;
 }
+
+#content pre {
+background-color: #F8F8F8;
+border: 1px solid #CCC;
+font-size: 13px;
+line-height: 19px;
+overflow: auto;
+padding: 6px 10px;
+border-radius: 3px;
+}
+
+#content h1, #content h2, #content h3{
+    color: black;
+    font-weight: bold;
+    margin: 20px 0 10px;
+    padding: 0;
+}
+
+#content h1{
+    font-size: 33px;
+    line-height: normal;
+    margin: 0;
+    padding: 2px 0 0 0;
+    font-weight: bold;
+    /*put this to div for buttons*/
+    border-bottom: 1px solid #CCC;
+    margin: 14px 0 5px;
+    padding: 5px 0;
+    overflow: hidden;
+}
+#content h2 {
+    font-size: 24px;
+    border-bottom: 1px solid #CCC;
+}
+
+#content h3 {
+    font-size: 18px;
+}
+
+

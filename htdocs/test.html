@@ -4,9 +4,16 @@
 <title>Test Page</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
 <link rel="stylesheet" href="css/default.css">
+<link rel="stylesheet" href="css/highlight.css">
 <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="js/showdown.js"></script>
 <script type="text/javascript" src="js/wikiboard.js"></script>
+<script type="text/javascript" src="js/highlight.pack.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+  $('pre code').each(function(i, e) {hljs.highlightBlock(e, '    ')});
+});
+</script>
 
 <style>  
 </style> 
@@ -28,16 +35,26 @@ Dies ist ein kleiner Markdown Test
 * Bar
 * Lee
 
+Test
+
+    class Test(object):
+        def __init__(self):
+            print 'hello world'
+
+
+### Third Heading
+
+somethin to say
 
 Standing on the Shoulder of Giants 
 ----------------------------------
 
 * [jquery][]
-* [markdown][]
+* [showdown][]
 * [Ajax.org Cloud9 Editor][ace] 
 
 [jquery]: http://jquery.org/
-[markdown]: https://github.com/coreyti/showdown/
+[showdown]: https://github.com/coreyti/showdown/
 [ace]: http://ace.ajax.org
 </pre>
 
