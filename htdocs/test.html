@@ -4,7 +4,7 @@
 <title>Test Page</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
 <link rel="stylesheet" href="css/default.css">
-<link rel="stylesheet" href="css/highlight.css">
+<link rel="stylesheet" href="css/highlight-google.css">
 <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="js/showdown.js"></script>
 <script type="text/javascript" src="js/wikiboard.js"></script>
@@ -39,12 +39,23 @@ Test
 
     class Test(object):
         def __init__(self):
+            '''Ein Docstring'''
             print 'hello world'
+            # a simple comment
 
 
 ### Third Heading
 
 somethin to say
+
+    create table foo(id integer, title text);
+    create table bar(id integer, foo_id integer, name text);
+    insert into foo values(0, 'null');
+    insert into foo values(1, 'eins');
+    insert into bar values(0,0, 'nullnull');
+    insert into bar values(1,0, 'einsnull');
+    insert into bar values(2,1, 'zweieins');
+
 
 Standing on the Shoulder of Giants 
 ----------------------------------
