@@ -1,0 +1,14 @@
+body{
+    font: 13.34px helvetica,arial,freesans,clean,sans-serif;
+    line-height: 1.4em;
+    color:  #333;
+    
+}
+#content{
+    background-color: ghostWhite;
+    width: 760px;
+    margin: 0px auto;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+}
