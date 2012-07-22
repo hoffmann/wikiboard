@@ -8,11 +8,11 @@ Standing on the Shoulder of Giants
 ----------------------------------
 
 * [jquery][]
-* [markdown][]
+* [marked][]
 * [highlight.js][highlight]
 * [Ajax.org Cloud9 Editor][ace] — Read more
 
 [jquery]: http://jquery.org/
-[markdown]: https://github.com/coreyti/showdown/
+[marked]: https://github.com/chjj/marked/
 [highlight]: http://softwaremaniacs.org/soft/highlight/
 [ace]: http://ace.ajax.org
